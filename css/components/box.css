@@ -1,6 +1,9 @@
-#box{
+.box{
     background-color: #1E1F26;
     width: 630px;
     height: 184px;
     box-shadow: 5px 5px 0 black;
+}
+.box h1{
+    margin-bottom: 28px;
 }
