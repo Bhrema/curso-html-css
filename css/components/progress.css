@@ -4,6 +4,7 @@
     position: relative;
     width: 320px;
     height: 40px;
+    border-color: #000000;
     border-top-width: 5px;
     border-top-style: solid;
     border-left-width: 5px;
