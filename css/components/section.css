@@ -1,20 +1,22 @@
-.skills{
+.section{
     background-color: #4D648D;
     border-bottom: 10px solid #283655;
     width: 100%;
     height: 730px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
-.skills .icones{
+.section .icones{
     box-sizing: border-box;
     padding: 150px 245px 100px 235px;
 }
 
-.skills .organiza{
+.section .organiza{
     display: flex;
 }
 
-.skills .lingua{
+.section .lingua{
     font-family: 'Press Start 2P', sans-serif;
     font-size: 25px;
     line-height: 25px;
