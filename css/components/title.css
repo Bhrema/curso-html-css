@@ -1,12 +1,13 @@
 .title{
-    display: inline-block;
-    text-align: center;
-    color: #D0E1F9;
-    text-shadow: 4px 4px 0 #000;
-    
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
+    color: #D0E1F9;
+    text-shadow: 4px 4px 0 #000;
     padding: 18px 20px;
-    margin: 20px;
+}
 
+.title.-second{
+    text-align: center;
+    text-shadow: none;
+    padding-top: 50px;
 }

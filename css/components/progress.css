@@ -12,14 +12,16 @@
     border-bottom-style: solid;
     border-right-width: 5px;
     border-right-style: solid;
-
+    animation-play-state: paused;
+    
 }
 
 .progress .progress-bar{
    position: absolute;
    height: 100%;
    background-color: #283655;
-   animation: progress-animation 6s infinite;
+   animation: progress-animation 3s;
+   animation-fill-mode: forwards;
 }
 
 
