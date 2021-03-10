@@ -8,3 +8,11 @@
 .box h1{
     margin-bottom: 28px;
 }
+
+.box.-second{
+    background-color: #7C5E99;
+    box-shadow: 8px 8px 0 #fff;
+    height: 280px;
+    width: 280px;
+
+}

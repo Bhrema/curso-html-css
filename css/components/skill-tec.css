@@ -9,6 +9,7 @@
 .skill-tec .icon{
     margin-right: 25px;
     width: 90px;
+    min-width: 90px;
 }
 
 .skill-tec .title{
