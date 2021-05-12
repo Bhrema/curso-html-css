@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     box-sizing: border-box;
     background-image: url(../../assets/photo.png);
     background-blend-mode: darken;
@@ -10,18 +10,18 @@
     padding-top: 115px;
     padding-left: 90px;
 }
-.banner .wrapper{
+.main-banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 640px;
 
 }
 
-.banner .box{
+.main-banner .box{
     margin-bottom: 40px;
 }
 
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: space-evenly;   
 }
