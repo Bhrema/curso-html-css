@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -9,7 +9,7 @@
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 
-.action::before{
+.main-action::before{
     content:"";
     background-color: #D0E1F9;
     width: 10px;
