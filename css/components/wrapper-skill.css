@@ -20,12 +20,3 @@
 .wrapper-skill .progress-bar{
     width: 320px;
 }
-
-.wrapper-skill.-second{
-    align-items: center;
-    flex-direction: column;
-    height: 280px;
-    width: 1601px;
-    max-width: 1601px;
-    justify-content: space-evenly;
-}

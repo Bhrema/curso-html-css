@@ -16,3 +16,12 @@
     margin-bottom: 60px;
 }
 
+.section.-bgBlack{
+    background-color: black;
+    height: 520px;
+}
+
+.section.-bdFirst {
+    border-color: #1E1F26;
+}
+
