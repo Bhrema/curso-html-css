@@ -10,6 +10,7 @@
     transition: background-color .5s opacity 500ms ease-in-out;
     transition: transform 100ms linear;
     text-decoration:none;
+    cursor: pointer;
 }
 
 .main-button:hover{
@@ -18,5 +19,9 @@
 }
 
 .main-button.-full{
+    background-color: #4D648D;
     width: 100%;
+}
+.main-button.-full:hover{
+    transform: scale(1.01);
 }
