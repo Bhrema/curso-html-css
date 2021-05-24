@@ -6,12 +6,15 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+table, caption, tbody, body, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary, input,
 time, mark, audio, video {
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -49,7 +52,4 @@ button{
 	font-family: inherit;
 }
 
-html{
-	margin: -8px;
-}
 
