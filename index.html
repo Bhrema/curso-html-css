@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/components/reset.css">
-    <link rel="stylesheet" href="css/components/main-logo">
+    <link rel="stylesheet" href="css/components/main-logo.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/main-box.css">
@@ -22,13 +22,18 @@
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+
 </head>
 <body>
     <header class="main-header">
         
         <h1 class="main-logo">BHC</h1>
-
-         <nav>
+        
+        <nav>
             <a class="main-action" href="" lang="en">Skills</a>
             <a class="main-action" href="">Projetos</a>
             <a class="main-action" href="">Sobre</a>
@@ -37,16 +42,16 @@
         </nav>
     </header>
     <section class="main-banner">
-        <div class="wrapper">
-            <div class="main-box">            
-                <h2 class="main-title">Bruno H Crema</h2>
-                <h3 class="main-subtitle">FrontEnd Developer</h3>
-            </div>
-            <div class="navigation">
-                <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
-            </div>
-        </div>    
+    <div class="wrapper">
+        <div class="main-box">            
+            <h2 class="main-title">Bruno H Crema</h2>
+            <h3 class="main-subtitle">FrontEnd Developer</h3>
+        </div>
+        <div class="navigation">
+            <a class="main-button" href="" lang="en">Download CV</a>
+            <a class="main-button" href="">Contatos</a>
+        </div>
+    </div>    
     
     </section>
     <section class="main-section">
@@ -140,7 +145,7 @@
     <section class="main-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-card">
-            <a href="https://www.autonomuscode.dev" target="_blank"> <!-- TAGET FAZ ABRIR EM UMA NOA --> 
+            <a href="https://www.autonomuscode.dev" target="_blank"> <!-- TARGET _BLANK FAZ ABRIR EM UMA NOVA ABA--> 
                 <figure class="card-project">
                     <img src="assets/collabcode.png" alt="logo1">
                 </figure>
@@ -157,5 +162,37 @@
             </a> -->
         </div>  
     </section>
-</body>
+    <section class="main-section -bdSecond">
+        <h2 class="main-title -second">Sobre</h2>
+            <p class="main-description">Hoje, estudante de engenharia elétrica com uma paixão imensurável por programação e desenvolvimento. Bruno leva seus estudos de programação atráves de algumas plataformas, dentre elas a Alura. No momento desenvolve alguns projetos pessoais que estão citados na cessão acima.</p>   
+    </section>
+    <form>
+
+        <label class= "main-label" for="name">Nome</label>
+        <input id="name" type="text">
+
+        <label class= "main-label" for="email">Email</label>
+        <input id="email" type="email">
+
+        <label class= "main-label" for="message">Menssagem</label>
+        <textarea id="message"></textarea>
+
+        <button type= "submit">Enviar</button>
+
+
+    </form>
+
+    <footer class="main-footer">
+            <a class="action" href="https://twitter.com/BrunoCrema1" target="_blank"> 
+                <img src="assets/twitter 1.png" alt="icone tw" >
+        </a>
+            <a class="action" href="https://www.youtube.com/channel/UCy39be8opIhdBTYbWS6yJow" target="_blank">
+                <img src="assets/youtube 1.png" alt="icone yt">
+        </a>
+            <a class="action" href="" target="_blank">
+                <img src="assets/discord 1.png" alt="icone disc">
+        </a>
+    </footer>
+    </body>
+
 </html>

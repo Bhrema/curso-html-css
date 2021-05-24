@@ -1,14 +1,15 @@
 .main-banner{
     box-sizing: border-box;
-    background-image: url(../../assets/photo.png);
+    background-color: #c6cdda;
+    background-image: url(../../assets/photo.jpg);
     background-blend-mode: darken;
-    backdrop-filter: blur(50px);
+    background-position: center;
     background-repeat: no-repeat;
-    height: 1000px;
-    background-size: 100%;
+    background-size:65%;
+    height: 930px;
     border-bottom: 10px solid #000;
-    padding-top: 115px;
-    padding-left: 90px;
+    padding-top: 55px;
+    padding-left: 55px;
 }
 .main-banner .wrapper{
     display: flex;
@@ -25,3 +26,4 @@
     display: flex;
     justify-content: space-evenly;   
 }
+
